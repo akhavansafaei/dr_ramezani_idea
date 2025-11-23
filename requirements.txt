@@ -1,0 +1,22 @@
+# Computer Vision Project - Requirements
+# Budget-friendly multi-feature face analysis system
+
+# Core dependencies
+opencv-python>=4.8.0
+opencv-contrib-python>=4.8.0
+numpy>=1.24.0
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Deep learning and face analysis
+deepface>=0.0.79
+tf-keras>=2.15.0
+
+# Optional: Better face detection (install if needed)
+# mtcnn>=0.1.1
+
+# Optional: MediaPipe for pose detection (recommended)
+mediapipe>=0.10.0
+
+# Utilities
+Pillow>=10.0.0
