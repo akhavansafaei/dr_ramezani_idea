@@ -21,6 +21,47 @@ A comprehensive, hardware-aware computer vision system designed for low to mid-r
 - ✅ **Priority-Based** - Features disabled in order of priority when optimizing
 - ✅ **Real-time FPS Monitoring** - See performance metrics live
 - ✅ **Face Database** - Save and track unique individuals across sessions
+- ✅ **3 User Interfaces** - Desktop GUI, Web Interface, and Command Line
+
+## 🎨 User Interfaces
+
+Choose the interface that works best for you:
+
+### 🖥️ Desktop GUI (Recommended)
+**Professional Tkinter-based application with dark theme**
+- Real-time video processing with live controls
+- Interactive feature toggles and settings
+- Screenshot capture and pause/resume
+- Best for: Live demonstrations, real-time webcam
+
+```bash
+python gui_app.py
+```
+
+### 🌐 Web Interface (Modern)
+**Beautiful Gradio-based web application**
+- Works in any browser (no installation for viewers)
+- Image, video, and webcam support
+- Shareable links for remote access
+- Best for: Presentations, batch processing, sharing
+
+```bash
+python web_app.py
+# Open browser to http://localhost:7860
+```
+
+### ⌨️ Command Line (Lightweight)
+**Terminal-based application for automation**
+- Minimal resource usage
+- Scriptable and automatable
+- All features via command-line flags
+- Best for: Servers, automation, low-resource systems
+
+```bash
+python main.py --auto-optimize --target-fps 15
+```
+
+**See [UI_GUIDE.md](UI_GUIDE.md) for complete interface documentation.**
 
 ## 📋 Requirements
 

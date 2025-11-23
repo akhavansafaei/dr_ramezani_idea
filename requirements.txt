@@ -20,3 +20,6 @@ mediapipe>=0.10.0
 
 # Utilities
 Pillow>=10.0.0
+
+# GUI Dependencies
+gradio>=4.0.0
